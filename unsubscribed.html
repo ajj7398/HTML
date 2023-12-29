@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+     /* Add some basic styling to create a box */
+     .box {
+          width: 300px;
+          height: 250px;
+          background-color: #e0e0e0;
+          border: 1px solid #999;
+        }
+
+        /* Style the label with a star for required fields */
+    label.required::after {
+      content: " * ";
+      color: darkorange; /* You can change the color */
+    }
+
+  </style>
+  <head>
+<body>
+    <h1>
+      Subscribe 
+    </h1>
+   <hr>
+ <!-- The div element representing the box -->
+ <div class="box"> We'are sorry to see you go, but hey, no hard feelings, hopefully we will see you back one day. <br> Please fill in your email address in order to Unsubscribe, just to make sure thus is not an accident or somebody else tries to Unsubscribe you.</div> <br><br><br>
+ 
+ <!-- Form example with an email input field -->
+  <form>
+   <strong> <label for="email" class="required">Email:</label> </strong> 
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <strong> <label for="Unsubscribe reason" class="">Unsubscribe reason:</label> </strong>
+   <input type="Unsubscribe reason" placeholder="Unsubscribe reason" required>
+    <br><br>
+    <hr>
+
+  </form>
+</head>
+</body>
+</html>

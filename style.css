@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+
+div{
+    box-sizing: border-box;
+    margin: 30px;
+    padding: 25px;
+    color: red;
+    font-family: 'Itim', cursive;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+h1{
+    color: black;
+}

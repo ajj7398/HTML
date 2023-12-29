@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 400px;
+            background-color: aqua;
+            border: 2px  solid;
+            margin: 300px;
+            padding: 10px;
+        }
+        #heading{
+             /* border-top-style: dotted;
+            border-bottom-style: solid;
+            border-width: 3px;
+            border-color: red; */
+            display: inline;
+            width: 200px;
+            height: 60px;
+            padding: 20px;
+        }
+        #sw{
+            display: inline;
+            width: 200px;
+            height: 60px;
+        }
+        #year{
+            visibility: inline-block;
+            width: 200px;
+            height: 60px;
+            font-size: 3.5em;   
+        } 
+        #exp{
+            display: inline-block;
+            width: 200px;
+            height: 60px;
+            font-size: 3.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <h2 id="heading">Display Property</h2>
+    <p id="sw"> Software Developer </p>
+    <p> UI Developer</p>
+    <p> Backend Developer</p>
+    <span id="year"> 10.5 years</span>
+    <span id="exp"> Experience</span>
+</div>
+</body>
+</html>
